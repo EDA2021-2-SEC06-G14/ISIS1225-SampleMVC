@@ -37,12 +37,11 @@ se hace la solicitud al controlador para ejecutar la
 operación solicitada
 """
 
-
 def printMenu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TODO: Modificaciones para el laboratorio 1.
+    print("3- Cargar Book_tags")
     print("0- Salir")
 
 
@@ -76,7 +75,9 @@ while True:
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
 
-    # TODO: Modificaciones para el laboratorio 1.
+    elif int(inputs[0]) == 3:
+        print("Cargando informacion de Book_tags....")
+        print('Total de tags cargados: ')
 
     else:
         sys.exit(0)
