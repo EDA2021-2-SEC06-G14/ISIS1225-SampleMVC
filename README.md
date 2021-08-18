@@ -29,6 +29,10 @@ Este directorio contiene todo el código de base que se entrega para el funciona
 
 INTEGRANTES DEL GRUPO:
 
+    Sebastian Guerrero Rios
+        Correo: s.guerrero3@uniandes.edu.co
+        Codigo: 202021249
+
     Diego Alejandro González Vargas
         Correo: da.gonzalezv1@uniandes.edu.co
         Codigo: 202110240
